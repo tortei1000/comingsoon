@@ -4,7 +4,7 @@ const massive = require('massive')
 require('dotenv').config()
 
 
-const { SERVER_PORT, LOCAL_HOST } = process.env
+const { SERVER_PORT, CONNECTION_STRING } = process.env
 const path = require('path'); // Usually moved to the start of file
 
 app.use(express.json())
